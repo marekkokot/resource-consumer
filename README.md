@@ -1,0 +1,2 @@
+# resource-consumer
+Simple C++ program to consume resources (mamory and CPU). The main idea is to have it running together with other software to chcek how this other software behaves when the system is somehow loaded. For example if the other software loads a lot of the same data from disks OS may cache it in the main memory preventing actual disk reads. When the memory is occupied by resource-consumer` OS can not do this.
